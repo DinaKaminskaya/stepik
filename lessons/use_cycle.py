@@ -8,7 +8,8 @@ try:
     #find_element-находит только первый.
     fild=browser.find_elements(By.TAG_NAME,"input")
     #команда assert len(fild)-проверит кол-во найденных элементов
-    assert len(fild)==100
+    print(len(fild)) #посчитать
+    assert len(fild)==90, "не 90"
     print(len(fild)) #посчитать
     for el in fild:
         el.send_keys("мой ответ")

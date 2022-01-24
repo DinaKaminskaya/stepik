@@ -36,4 +36,4 @@ class Test_result():
         assert act_result == "Correct!", "Wrong answer"
 #print(list_for_result)
         
-        
+#pytest -s -v --browser_name=firefox test_parser.py       
